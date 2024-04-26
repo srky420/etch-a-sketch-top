@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.btns {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    border-radius: 5em;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.btn:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
